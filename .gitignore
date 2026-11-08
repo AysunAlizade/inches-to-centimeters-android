@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+.kotlin/
+
+# Local configuration (machine-specific, never commit)
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Generated files
+bin/
+gen/
+out/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
